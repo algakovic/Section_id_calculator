@@ -1,6 +1,6 @@
 # Phantasy Star Online episode I&II: Section_id_calculator
 
-When creating a new character a section Id will be calculated based on UNICODE/ASCII code alphanumeric transoformations
+When creating a new character a section Id will be calculated based on UNICODE/ASCII code alphanumeric transformations.
 This calculator allows you to input a name and returns the Section ID the name will generate. 
 It is intended for use as a quality of life tool.
 
