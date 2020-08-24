@@ -1,15 +1,22 @@
 #!/usr/bin/env python
 # This is a Section_ID Calculator for Gamecube Phantasy Star Online Character Names
 
-name = input("Provide a name: ")
-list(name)
+name = input("Provide a name: ") # Ask for name input
+
+ASCII_values = [ord(i) for i in list(name)] # Obtain ASCII values for each character in name
+
+result = 0
+for i in ASCII_values:
+    result += i
+
+print(result)
 
 
 '''
 Calculation:
-- For loop over the list
-- Convert each iterable in list to ascii
-- Sum ASCII conversion
+X For loop over the list
+X Convert each iterable in list to ASCII
+X Sum ASCII conversion
 - Retreive the ones digit from the resulting sum
 
 Show Result:
@@ -29,4 +36,3 @@ section_id_dict = {
 9: 'Whitill'
 }
 
-print(section_id_dict)
