@@ -5,11 +5,11 @@ name = input("Provide a name: ") # Ask for name input
 
 ASCII_values = [ord(i) for i in list(name)] # Obtain ASCII values for each character in name
 
-print(ASCII_values)
 result = 0
 for i in ASCII_values:
     result += i
 
+# Create the ID  dict index
 section_id_dict = {
 0: 'Viridia',
 1: 'Greenill',
