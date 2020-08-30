@@ -7,7 +7,7 @@ It is intended for use as a quality of life tool.
 ## Usage
 Clone the repository to a directory and within the same directory run the following command in your terminal:
 
-./calc
+./sid_calc
 
 A maximum of 12 characters is allowed for input
 
